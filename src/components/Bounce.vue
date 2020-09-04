@@ -3,9 +3,9 @@
     <h1>{{ msg }}</h1>
     <div class='box'>
       <div class="item">
-      <svg height="600" width="600">
-        <circle ref="circle" v-bind:cx="cx" v-bind:cy="cy" r="40" stroke="black" stroke-width="3" fill="red"/>
-      </svg>
+        <svg height="600" width="600">
+          <circle ref="circle" v-bind:cx="cx" v-bind:cy="cy" r="40" stroke="black" stroke-width="3" fill="blue"/>
+        </svg>
       </div>
     </div>
   </div>
